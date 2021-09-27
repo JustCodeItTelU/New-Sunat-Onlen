@@ -57,17 +57,35 @@ nav .logo {
 }
 
 /* Header */
-
-.header-container {
-  background: #ffffff url("images/background.svg");
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: contain;
+header {
+  display: flex;
+  width: 100%;
+}
+.section-container {
+  background-color: blue;
   height: 100vh;
+}
+.hero-content {
+  width: 50%;
+  padding: 20px 10px;
+}
+
+.hero-content h3 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #215ee9;
+}
+.hero-images {
+  width: 50%;
+  border-bottom: 1px solid #c0c0c0;
 }
 
 .search-box {
   display: none;
 }
 
-
+.hero-content {
+  text-align: left;
+}
