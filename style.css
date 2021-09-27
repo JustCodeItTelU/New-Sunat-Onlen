@@ -55,3 +55,19 @@ nav .logo {
   font-style: italic;
   font-weight: bold;
 }
+
+/* Header */
+
+.header-container {
+  background: #ffffff url("images/background.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
+  height: 100vh;
+}
+
+.search-box {
+  display: none;
+}
+
+
