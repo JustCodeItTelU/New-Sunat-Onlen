@@ -2,10 +2,11 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.main {
-  font-weight: bolder;
+.container{
   color: #215ee9;
 }
+
+
 
 /* .image-banner-1{
   height: 673px;

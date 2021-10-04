@@ -12,10 +12,7 @@
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
       crossorigin="anonymous"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,700;1,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css" />
 
     <title>Hallo Mantri</title>
@@ -33,7 +30,7 @@
       crossorigin="anonymous"
     ></script>
     <!-- NAV START -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-around">
       <div class="container">
         <nav class="navbar navbar-light bg-light">
             <div class="container-fluid">
@@ -57,7 +54,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Article</a>
@@ -66,30 +63,31 @@
               <a class="nav-link" href="#">Clinic</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Mantri</a>
+              <a class="nav-link" href="mantri.html">Mantri</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
             </li>
           </ul>
-          <div class="d-grid gap-2 d-md-block">
-            <button class="btn btn-outline-primary" type="button">Login</button>
-            <button class="btn btn-primary" type="button">Register</button>
+          <div class="d-grid gap-2 d-md-block ml-5">
+            <div class="login">
+              <button style="text-decoration: none;"class="btn btn-link" type="button">Login</button>
+              <button class="btn btn-primary" type="button">Register</button>
+            </div>            
           </div>
           </form>
         </div>
       </div>
     </nav>
     <!-- NAV END -->
+    <!-- HEADER -->
     <section id="home">
       <div class="container">
         <div class="row text-left">
           <div class="col-sm-12 col-lg-5 offset-0">
             <h5 style="text-align: left; margin: 30px 0">Booking of doctor’s appointment</h5>
             <div class="main">
-              <h1 style="text-align: left; margin: 5px 0"> Don’t Miss Our</h1>
-              <h1 style="text-align: left; margin: 5px 0"> Exclusive</h1>
-              <h1 style="text-align: left; margin: 5px 0"> Patient Special</h1>
+              <h1 class="fw-bold"style="text-align: left; margin: 5px 0"> Don’t Miss Our <br>Exclusive <br>Patient Special</h1>
             </div>
             <p style="text-align: left; margin: 30px 0">
               We want to make sure that everyone has access to natural and
@@ -97,13 +95,22 @@
               and a digital posture assesment.
             </p>
             <button style="text-align: left; margin: 40px 0" type="button" class="btn btn-primary btn-lg">Read More</button>
-            <div class="Qualified-Doctors">
-              <h1 style="text-align: left; margin: 5px 0">240</h1>
-              <h7 style="text-align: left; margin: 5px 0">
-                Qualified Doctors &
-                <br>
-                Medical Specialists</h7>
-            </div>            
+              <!-- ROW -->
+              <div class="row my-3">
+                <div class="col">
+                  <h1 class="fw-bold" style="text-align: left;">240</h1>
+                  <p>Qualified Doctors & Medical Specialists</p>
+                </div>
+                <div class="col order-5">
+                  <h1 class="fw-bold" style="text-align: left;">1.456</h1>
+                  <p>Medical Tests Done For Our Patients</p>
+                </div>
+                <div class="col order-1">
+                  <h1 class="fw-bold" style="text-align: left;">1M+</h1>
+                  <p>Years of Experience The Medical Field </p>
+                </div>
+              </div>
+              <!-- ROW -->       
           </div>
           <div class="col-sm-12 col-lg-1 offset-2">
             <div class="image-banner-1">
@@ -116,5 +123,6 @@
         </div>
       </div>
     </section>
+    <!-- Header End -->
   </body>
 </html>
